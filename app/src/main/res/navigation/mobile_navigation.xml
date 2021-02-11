@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.imran.parkingsystem.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_parkinghistory"
+            app:destination="@id/nav_parkinghistory" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_bookparking"
+            app:destination="@id/nav_bookparking" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_profile"
+            app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_addparking"
+            app:destination="@id/nav_addparking" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_addparking"
+        android:name="com.imran.parkingsystem.ui.addparking.AddParkingFragment"
+        android:label="@string/menu_addparking"
+        tools:layout="@layout/addparking" />
+
+    <fragment
+        android:id="@+id/nav_bookparking"
+        android:name="com.imran.parkingsystem.ui.bookparking.BookParkingFragment"
+        android:label="@string/menu_bookparking"
+        tools:layout="@layout/bookparking" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.imran.parkingsystem.ui.profile.ProfileFragment"
+        android:label="@string/menu_Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_parkinghistory"
+        android:name="com.imran.parkingsystem.ui.parkinghistory.ParkingHistoryFragment"
+        android:label="@string/menu_parkinghistory"
+        tools:layout="@layout/fragment_parking_history" />
+</navigation>

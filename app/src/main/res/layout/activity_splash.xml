@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashbg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/circleImageView"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp"
+    android:src="@drawable/car_logo"/>
+
+<View
+    android:id="@+id/line"
+    android:layout_width="match_parent"
+    android:layout_height="5dp"
+    android:background="@color/splashblack"
+   android:layout_below="@+id/circleImageView"
+    android:layout_margin="20dp"
+    android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/line"
+        android:text="Find Parking Near Your Location"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:background="@color/splashblack"
+        android:textColor="@color/splashwhite"
+        android:typeface="serif"/>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/splashblack"
+        android:layout_below="@id/textView"
+        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/splashtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:layout_centerHorizontal="true"
+        android:text="Parking App"
+        android:textSize="25sp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="@color/splashblack"
+        android:padding="5dp"/>
+
+
+</RelativeLayout>

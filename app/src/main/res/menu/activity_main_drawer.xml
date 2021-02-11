@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_addparking"
+            android:icon="@drawable/add_parking"
+            android:title="@string/menu_addparking" />
+        <item
+            android:id="@+id/nav_bookparking"
+            android:icon="@drawable/booking"
+            android:title="@string/menu_bookparking" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/menu_Profile" />
+        <item
+            android:id="@+id/nav_parkinghistory"
+            android:icon="@drawable/parking_history"
+            android:title="@string/menu_parkinghistory" />
+    </group>
+</menu>

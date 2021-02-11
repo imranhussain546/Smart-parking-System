@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03DAC5</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="splashblack">@color/design_default_color_on_secondary</color>
+    <color name="splashwhite">@color/cardview_light_background</color>
+    <color name="splashred">@android:color/holo_purple</color>
+
+    <color name="orange">#ff9800</color>
+    <color name="white">#fff</color>
+    <color name="brown">#B00020</color>
+    <color name="black">#000</color>
+    <color name="light_brown">#C62828</color>
+</resources>

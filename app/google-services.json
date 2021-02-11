@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "695377225080",
+    "firebase_url": "https://parking-system-7054b.firebaseio.com",
+    "project_id": "parking-system-7054b",
+    "storage_bucket": "parking-system-7054b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695377225080:android:6ad7130a5438b0a1b1548d",
+        "android_client_info": {
+          "package_name": "com.imran.parkingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695377225080-h16h4ggq7s5f05h4v4dgjbts7avk6mrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imran.parkingsystem",
+            "certificate_hash": "cc09e609116cc08899234f153fd7f6245c2dcd21"
+          }
+        },
+        {
+          "client_id": "695377225080-gnghchgass7p2lml3pvftoa3kvhrsjkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfT4VFCroYTvFMovnDaxj1yD5I7vVL5N4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695377225080-gnghchgass7p2lml3pvftoa3kvhrsjkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
